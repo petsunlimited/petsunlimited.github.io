@@ -1,3 +1,11 @@
-theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
 title: Welcome to Pet Unlimited's homepage
 description: Feel free to look around
+
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
